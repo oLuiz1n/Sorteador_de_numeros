@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <div class="titulo">
+        <h1>Sorteador</h1>
+        <h2>de Numeros</h2>
+    </div>
+    <div class="container">
+        <div class="container2">
+        Quantos numeros quer sortear? <input type="number" class="quantidade_numeros" ><br>
+        De <input type="number" class="numero_inicial"> a <input type="number" class="numero_final">
+        <button onclick="sortear()" class="sortear">Sortear</button><br><br>
+    </div>
+        <div class="lista_sorteados">
+            <p id="numero_sorteado"></p>
+        </div>
+    </div>
+    <script src="sorteador.js"></script>
+</body>
+</html>
